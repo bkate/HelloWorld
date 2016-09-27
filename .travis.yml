@@ -26,4 +26,4 @@ before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
 
-script: ./karma start --browsers Chrome,Firefox --single-run
+script: ./karma start --browsers Chrome --single-run
