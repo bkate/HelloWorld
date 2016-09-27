@@ -22,7 +22,8 @@ module.exports = {
       }
     ]
   },
-  devtool: 'inline-source-map'
+  devtool: 'cheap-module-source-map'
+  // 'inline-source-map'
   // ,
   // plugins: [
   //   new webpack.BannerPlugin('require("source-map-support").install();',
